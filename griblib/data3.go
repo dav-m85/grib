@@ -6,7 +6,7 @@ import (
 )
 
 //Data3 is a Grid point data - complex packing and spatial differencing
-// http://www.nco.ncep.noaa.gov/pmb/docs/grib2/grib2_temp5-3.shtml
+// http://www.nco.ncep.noaa.gov/pmb/docs/grib2/grib2_doc/grib2_temp5-3.shtml
 type Data3 struct {
 	Data2
 	SpatialOrderDifference uint8 `json:"spatialOrderDifference"`

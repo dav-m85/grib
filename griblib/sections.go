@@ -147,7 +147,7 @@ func readMessage(gribFile io.Reader, section0 Section0) (*Message, error) {
 	}
 }
 
-// Section0 is the indicator section http://www.nco.ncep.noaa.gov/pmb/docs/grib2/grib2_sect0.shtml
+// Section0 is the indicator section http://www.nco.ncep.noaa.gov/pmb/docs/grib2/grib2_doc/grib2_sect0.shtml
 // This section serves to identify the start of the record in a human readable form, indicate the total length of the message,
 // and indicate the Edition number of GRIB used to construct or encode the message. For GRIB2, this section is always 16 octets
 // long.
